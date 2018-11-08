@@ -1,0 +1,205 @@
+#header{
+    background-color: $black;
+    font-family: $fonts;
+    .container{
+        padding-right: 0;
+        .navbar{
+            position: relative;
+            
+            @media(max-width: 1024px){
+                max-width: 100%;
+                padding: 10px 15px 10px 15px;
+            }
+            .navbar-toggler{
+                outline: none;
+                
+                .navbar-toggler-icon{
+                    color: $white;
+                }
+            }
+            .navbar-brand{
+                img{
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+            .navbar-nav{
+                @media(max-width: 1024px){
+                    margin-top: 1rem;
+                }
+                li{
+                    a{
+                        display: inline-block;
+                        text-decoration: none;
+                        color: $white;
+                        padding: 10px 12px;
+                        text-transform: $uppercase;
+                        font-weight: 600;
+                        font-size: 13px;
+                        position: relative;
+
+                        @media(max-width: 1024px){
+                            display: block;
+                            text-align: center;
+                        }
+                        &.active::after{
+                            content: "";
+                            position: relative;
+                            top: -3.2rem;
+                            display: block;
+                            width: 100%;
+                            height: 3px;
+                            background: $blue;
+                            transition: width .5s;
+
+                            @media(max-width: 1024px){
+                                overflow: hidden;
+                                position: relative;
+                                top: -1.8rem;
+                                width: 0;
+                                display: block;
+                            }
+                        }
+                        &.cw_active::after{
+                            content: "";
+                            position: relative;
+                            top: -3.2rem;
+                            display: block;
+                            width: 100%;
+                            height: 3px;
+                            background: $white;
+                            transition: width .5s;
+
+                            @media(max-width: 1024px){
+                                overflow: hidden;
+                                position: relative;
+                                top: -1.8rem;
+                                width: 0;
+                                display: block;
+                            }
+                        }
+                        &.cp_active::after{
+                            @extend .cw_active;
+                            background-color: $c_fashion;
+
+                            @media(max-width: 1024px){
+                                overflow: hidden;
+                                position: relative;
+                                top: -1.8rem;
+                                width: 0;
+                                display: block;
+                            }
+                        }
+                        &.cb_active::after{
+                            @extend .cw_active;
+                            background-color: $blue;
+
+                            @media(max-width: 1024px){
+                                overflow: hidden;
+                                position: relative;
+                                top: -1.8rem;
+                                width: 0;
+                                display: block;
+                            }
+                        }
+                        &::after{
+                            content: "";
+                            position: relative;
+                            top: -3.2rem;
+                            display: block;
+                            width: 0;
+                            height: 3px;
+                            background: $blue;
+                            transition: width .5s;
+
+                            @media(max-width: 1024px){
+                                overflow: hidden;
+                                position: relative;
+                                top: -1.5rem;
+                                width: 0;
+                                display: block;
+                            }
+                        }
+                        &:hover::after{
+                            width: 100%;
+                        }
+                        @media(max-width: 1024px){
+                            padding-left: 0;
+                        }
+                }
+            }
+                
+            }
+            .log{
+                position: absolute;
+                right: 0;
+                @media(max-width: 1204px){
+                    position: relative;
+                }
+                .log_map{
+                    border: 2px solid $white;
+                    width: 180px;
+                    background: transparent;
+                    margin-top: 8px;
+                    @media(max-width: 1024px){
+                        margin: 20px auto 15px auto;
+                    }
+                    a{
+                        font-size: 8px;
+                        font-weight: 600;
+                        color: $white;
+                        text-decoration: none;
+                        text-transform: $uppercase;
+                        letter-spacing: 3px;
+                        &.btn_login{
+                            padding: 9px 12px 9px 17px;
+                            
+                            &.btn_br{
+                                border-right: 2px solid $white;
+                                padding-right: 22px;
+                            }
+                            &:hover{
+                                color: $blue;
+                            }
+                        }
+                        &.btn_signup{
+                            @extend .btn_login;
+    
+                            &:hover{
+                                @extend .btn_login;
+                            }
+                        }
+                    }
+                }
+                .map{
+                    margin-left: 2em;
+                    width: 100px;
+                    position: relative;
+                    
+                    @media(max-width: 1024px){
+                        margin: 0 auto;
+                    }
+                    p{
+                        font-size: 8px;
+                        font-weight: 300;
+                        max-width: 32px;
+                        text-transform: $uppercase;
+                        letter-spacing: 3px;
+                        color: $white;
+                        float: left;
+                        position: absolute;
+                        top: 6px;
+                        left: 0;
+                    }
+                    img{
+                        width: 55px;
+                        height: 50px;
+                        position: relative;
+                        left: 40px;
+                    }
+                }
+            }
+            
+        }    
+    }
+}

@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand" href="#">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                        <button class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon">
+                                <i class="fa fa-bars"></i>
+                            </span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link cw_active">Artists</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Showcases</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Rawdio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Rawk Wall</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link mr">About</a>
+                                </li>
+                            </ul>
+                            <div class="log">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <button class="log_map form-inline">
+                                            <a href="#" class="btn_login btn_br">Login</a>
+                                            <a href="#" class="btn_signup">Sign Up</a>
+                                        </button>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="map">
+                                            <p>Find Your City</p>
+                                            <img src="images/map.png" alt="map_icon">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+    <section id="slide_artists">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-sm-12">
+                    <div class="navigation_dropdown">
+                        <div class="dropdown">
+                            <button class="btn" type="button" data-toggle="dropdown">
+                              <i class=" fa fa-bars"></i>
+                                Discover
+                            </button>
+                        <ul class="dropdown-menu">
+                                <li><a href="#" class="c_visual">Visual Art</a></li>
+                                <li><a href="#" class="c_fashion">Fashion</a></li>
+                                <li><a href="#" class="c_music">Music</a></li>
+                                <li><a href="#" class="c_film">Film</a></li>
+                                <li><a href="#" class="c_beauty">Beauty</a></li>
+                                <li><a href="#" class="c_tech">Tech</a></li>
+                                <li><a href="#" class="c_pt">Photography</a></li>
+                                <li><a href="#" class="c_art">Performing Art</a></li>
+                                <li><a href="#" class="c_ac">Accessories</a></li>
+                                <li><a href="#" class="c_craft">Craft</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="logo_images">
+                        <img src="images/logo_hero.png" alt="logo2">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-sm-12">
+                    <div class="search pull-right">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label for="find" class="find"><span>+</span> Find Artists</label>
+                                <input type="text" class="form-control location" id="find" placeholder="Location">
+                            </div>
+                            <div class="form-group">
+                                <div class="selectdiv">
+                                    <label>
+                                        <select class="form-control">
+                                            <option selected>Category</option>
+                                            <option value="Music">Music</option>
+                                            <option value="Film">Film</option>
+                                            <option value="Fashion">Fashion</option>
+                                        </select>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search Name">
+                                <i class="fa fa-search"></i>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="container-fluid">
+                    <div id="owl-example" class="owl-carousel">
+                            <div class="slide_images">
+                                <img src="images/visual/img_box_1.png" alt="">
+                                <div class="desc">
+                                    <h5>Deussay</h5>
+                                    <h6><span class="c_visual">Visual Art - Washington, DC</span></h6>
+                                </div>
+                            </div>
+                            <div class="slide_images">
+                                <img src="images/img_music_3.png" alt="">
+                                <div class="desc">
+                                        <h5>Deussay</h5>
+                                        <h6><span class="c_music">Music - San Fransisco, CA</span></h6>
+                                    </div>
+                            </div>
+                            <div class="slide_images">
+                                <img src="images/img_fashion_2.png" alt="">
+                                <div class="desc">
+                                        <h5>Deussay</h5>
+                                        <h6><span class="c_fashion">Fashion - Washington, DC</span></h6>
+                                    </div>
+                            </div>
+                            <div class="slide_images">
+                                <img src="images/img_film_2.png" alt="">
+                                <div class="desc">
+                                        <h5>Deussay</h5>
+                                        <h6><span class="c_film">Film - Washington, DC</span></h6>
+                                    </div>
+                            </div>
+                            <div class="slide_images">
+                                <img src="images/img_beauty1.png" alt="">
+                                <div class="desc">
+                                        <h5>Deussay</h5>
+                                        <h6><span class="c_beauty">Beauty - Washington, DC</span></h6>
+                                    </div>
+                            </div>
+                            <div class="slide_images">
+                                <img src="images/img_photography1.png" alt="">
+                                <div class="desc">
+                                        <h5>Deussay</h5>
+                                        <h6><span class="c_pt">Photography - Washington, DC</span></h6>
+                                    </div>
+                            </div>
+                            <div class="slide_images">
+                                    <img src="images/img_p_art3.png" alt="">
+                                    <div class="desc">
+                                            <h5>Deussay</h5>
+                                            <h6><span class="c_p_art">Performing Art - Washington, DC</span></h6>
+                                        </div>
+                                </div>
+                                <div class="slide_images">
+                                        <img src="images/img_accessories2.png" alt="">
+                                        <div class="desc">
+                                                <h5>Deussay</h5>
+                                                <h6><span class="c_ac">Accessories - Washington, DC</span></h6>
+                                            </div>
+                                    </div>
+                                    <div class="slide_images">
+                                            <img src="images/img_music_3.png" alt="">
+                                            <div class="desc">
+                                                    <h5>Deussay</h5>
+                                                    <h6><span class="c_craft">Craft - Washington, DC</span></h6>
+                                                </div>
+                                        </div>
+                          </div>
+            </div>
+    </section>
+    <!-- Header -->
+    <section id="main" class="main_artist">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="desc_title_main">
+                            <h6>Discover real talent</h6>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bl_visual">
+                            <img src="./images/visual/img_box_1.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <a href="#">Visual Art <i class="fa fa-angle-right c_visual"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bl_fashion">
+                            <img src="./images/visual/img_box_2.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <a href="#">Fashion <i class="fa fa-angle-right c_fashion"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bl_music">
+                            <img src="./images/visual/img_box_3.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <a href="#">Music <i class="fa fa-angle-right c_music"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bl_film">
+                            <img src="./images/visual/img_box_4.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <a href="#">Film <i class="fa fa-angle-right c_film"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bl_beauty">
+                            <img src="./images/visual/img_box_1.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <a href="#">Beauty <i class="fa fa-angle-right c_beauty"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="card bl_pt">
+                            <img src="./images/visual/img_box_2.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <a href="#">Photography <i class="fa fa-angle-right c_pt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bl_art">
+                            <img src="./images/visual/img_box_3.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <a href="#">Performing Art <i class="fa fa-angle-right c_p_art"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bl_ac">
+                            <img src="./images/visual/img_box_4.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <a href="#">Accessories <i class="fa fa-angle-right c_ac"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bl_tech">
+                            <img src="./images/visual/img_box_1.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <a href="#">Tech <i class="fa fa-angle-right c_tech"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bl_craft">
+                            <img src="./images/visual/img_box_2.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <a href="#">Craft <i class="fa fa-angle-right c_craft"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="divider_line"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="desc_visual desc">
+                            <h6>Explore <span>visual art</span><i class="fa fa-angle-right"></i></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/visual/img_box_1.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>Peixel</h6>
+                            <p>Art - Miami, FL</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/visual/img_box_2.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>Deussay</h6>
+                            <p>Art - Washington, DC</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/visual/img_box_3.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>Thee Overthinker</h6>
+                            <p>Art - Philadelphia, PA</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/visual/img_box_4.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>Tani.K.</h6>
+                            <p>Art - Perth, WA</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="divider_line"></div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="desc_fashion desc">
+                            <h6>Explore <span>Fashion</span><i class="fa fa-angle-right"></i></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/img_fashion_1.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>Yomos Vision</h6>
+                            <p>Fashion - Miami, FL</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/img_fashion_2.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>|Olea & Otto |</h6>
+                            <p>Fashion - Washington, DC</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/img_fashion_3.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>B. Van Hoozen</h6>
+                            <p>Fashion - Philadelphia, PA</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/img_fashion_4.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>Sheridonna Designs Llc</h6>
+                            <p>Fashion - Perth, WA</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="divider_line"></div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="desc_music desc">
+                            <h6>Explore <span>Music</span><i class="fa fa-angle-right"></i></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/img_music_1.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>Peixel</h6>
+                            <p>Music - Miami, FL</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/img_music_2.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>Deussay</h6>
+                            <p>Music - Washington, DC</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/img_music_3.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>Thee Overthinker</h6>
+                            <p>Music - Philadelphia,PA</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/img_music_4.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>Tani.K.</h6>
+                            <p>Music - Perth, WA</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="divider_line"></div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="desc_film desc">
+                            <h6>Explore <span>film</span><i class="fa fa-angle-right"></i></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="images">
+                            <img src="./images/img_film_1.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6 class="mt-4 mb-3">Yomos Vision</h6>
+                            <p class="mb_f_5">Photography - Miami, FL</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="images">
+                            <img src="./images/img_film_2.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6 class="mt-4 mb-3">| Olea & Otto |</h6>
+                            <p>Photography - Washington, DC</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="images">
+                            <img src="./images/img_film_3.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6 class="mt-4 mb-3">B. Van Hoozen</h6>
+                            <p>Photography - Philadelphia, PA</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="desc_photography desc">
+                            <h6>Explore <span>Photography</span><i class="fa fa-angle-right"></i></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="images">
+                            <img src="./images/img_photography1.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>Yomos Vishion</h6>
+                            <p>Photography - Miami, FL</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="images">
+                            <img src="./images/img_photography2.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>| Olea & Otto |</h6>
+                            <p>Photography - Washington, DC</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="images">
+                            <img src="./images/img_photography3.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>B. Van Hoozen</h6>
+                            <p>Photography - Philadelphia, FL</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="mb"></div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="desc_p_art desc">
+                            <h6>Find <span>Performing art</span><i class="fa fa-angle-right"></i></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/img_p_art1.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>Peixel</h6>
+                            <p>Performing Art - Miami, FL</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/img_p_art2.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>Deussay</h6>
+                            <p>Performing Art - Washington, DC</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/img_p_art3.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>Thee Overthinker</h6>
+                            <p>Performing Art - Philadelphia,PA</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/img_p_art4.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>Tani.K.</h6>
+                            <p>Performing Art - Perth, WA</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="divider_line"></div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="desc_beauty desc">
+                            <h6>Discover <span>Beauty</span><i class="fa fa-angle-right"></i></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/img_beauty1.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>Yomos Vision</h6>
+                            <p>Beauty - Miami, FL</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/img_beauty2.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>| Olea & Otto |</h6>
+                            <p>Beauty - Washington, DC</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/img_beauty3.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>B. Van Hoozen</h6>
+                            <p>Beauty - Philadelphia,PA</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/img_beauty4.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>Sheridonna Designs Llc</h6>
+                            <p>Beauty - Perth, WA</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="divider_line"></div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="desc_accessories desc">
+                            <h6>Explore <span>Accessories</span><i class="fa fa-angle-right"></i></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/img_accessories1.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>Yomos Vision</h6>
+                            <p>Accessories - Miami, FL</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/img_accessories2.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>| Olea & Otto |</h6>
+                            <p>Accessories - Washington, DC</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/img_accessories3.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>B. Van Hoozen</h6>
+                            <p>Accessories - Philadelphia,PA</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="images">
+                            <img src="./images/img_accessories4.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>Sheridonna Designs Llc</h6>
+                            <p>Accessories - Perth, WA</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="divider_line"></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="desc_craft desc">
+                            <h6>Explore <span>craft</span><i class="fa fa-angle-right"></i></h6>
+                        </div>
+                        <div class="images images_2">
+                            <img src="./images/visual/img_header_1.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>Yomos Vision</h6>
+                            <p>Craft - Miami, FL</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="desc_tech desc">
+                            <h6>Discover <span>tech</span><i class="fa fa-angle-right"></i></h6>
+                        </div>
+                        <div class="images images_2">
+                            <img src="./images/visual/img_header_2.png" alt="">
+                        </div>
+                        <div class="desc_title_">
+                            <h6>Yomos Vision</h6>
+                            <p class="mb_f_5">Tech - Miami, FL</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                            <div class="main_images">
+                                <div class="images">
+                                    <div class="row">
+                                        <div class="col-lg-3"></div>
+                                        <div class="col-lg-6">
+                                            <div class="desc">
+                                                <h1><span>We Dig The</span> Underground</h1>
+                                                <div class="btn_more">
+                                                    <a href="#">Learn more about us <i class="fa fa-angle-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="desc_visit artist">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="desc_paragraf">
+                                <h6>1,234</h6>
+                                <p>artist <br> showcased</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="desc_paragraf">
+                                <h6>$100,234</h6>
+                                <p>paid to RAW <br> artist</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="desc_paragraf">
+                                <h6>890</h6>
+                                <p>showcases complete</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="desc_paragraf">
+                                <h6>$1,234</h6>
+                                <p>artwork, accessories clothing sold</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="desc_paragraf">
+                                <h6>456</h6>
+                                <p>creative communities served</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="desc_paragraf">
+                                <h6>1,234</h6>
+                                <p>of artist supporters <br> in attendance</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="desc_paragraf">
+                                <h6>countless</h6>
+                                <p>connections made</p>
+                                <p><a href="#"><span>join us</span> <i class="fa fa-angle-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- main -->
+        <footer id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="footer_logo">
+                                <img src="images/logo.png" alt="logo">
+                            </div>
+                            <div class="desc_paragraf">
+                                <p>We are not your average art show.We
+                                    are loud, colorful, creative, and all about
+                                    our independent artists. We are RAW.
+                                </p>
+                            </div>
+                            <div class="social_icon col-4">
+                                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                                <i class="fa fa-twitter-square"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-youtube-square"></i>
+                                <i class="fa fa-flickr"></i>
+                                <i class="fa fa-cc-visa"></i>
+                                <i class="fa fa-cc-mastercard"></i>
+                                <i class="fa fa-cc-discover"></i>
+                            </div>
+                            <ul class="privacy">
+                                <li><a href="#">Privacy |</a></li>
+                                <li><a href="#">Terms |</a></li>
+                                <li><a href="#">Waiver of Liability</a></li>
+                            </ul>
+                            <div class="footer_copyright">
+                                <p>C. 2018 Raw</p>
+                            </div>
+                        </div>
+                        <div class="col nav_footer">
+                            <ul>
+                                <li class="nav-item">
+                                    <a href="#" class="active nav-link">Discover</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Visual Art</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link">Fashion</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Music</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Film</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Beauty</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Tech</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Photography</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Performing Art</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Accessories</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Craft</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col nav_footer">
+                            <ul>
+                                <li class="nav-item"><a href="#" class="bold nav-link">Find Your City</a></li>
+                                <li class="nav-item"><a href="#" class="bold nav-link">Showcases</a></li>
+                                <li class="nav-item"><a href="#" class="bold nav-link">RAWdio</a></li>
+                                <li class="nav-item"><a href="#" class="bold nav-link">RAWk Wall</a></li>
+                            </ul>
+                        </div>
+                        <div class="col nav_footer">
+                            <ul>
+                                <li class="nav-item"><a href="#" class="nav-link">Company</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Careers</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">What is RAW</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Industry Program Info</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">VIP Card Radeem</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Refunds</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                            </ul>
+                        </div>
+        
+                    </div>
+                </div>
+            </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

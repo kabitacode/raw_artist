@@ -1,0 +1,124 @@
+#footer{
+    padding: 30px 0;
+    background-color: $black;
+    font-family: $fonts;
+    position: relative;
+   .container{
+       padding-left: 35px;
+       padding-right: 35px;
+       .footer_logo{
+        margin-bottom: 0.80rem;
+        img{
+            widows: 60px;
+            height: 60px;
+            padding: 0;
+        }
+    }
+    .desc_paragraf{
+        color: $white;
+        max-width: 58%;
+        padding-left: 5px;
+        p{
+            font-size: 12px;
+            font-weight: 300;
+        }
+    }
+    .social_icon{
+        padding: 0;
+        margin-bottom: 0.80rem;
+        padding-left: 7px;
+        i{
+            color: $white;
+
+            &.fa{
+                font-size: 20px;
+                letter-spacing: 3px;
+            }
+        }
+    }
+    .privacy{
+       padding-left: 5px;
+        li{
+            display: inline-block;
+            
+            a{
+                text-decoration: none;
+                color: $white;
+                padding: 0 2px;
+                font-size: 12px;
+                font-weight: 300;
+                position: relative;
+                
+                &:hover{
+                    color: $blue;
+                }
+                    &.b_right{
+                        &::after{
+                            content: "";
+                            position: absolute;
+                            top: 4px;
+                            width: 1px;
+                            height: 12px;
+                            background: #909090;
+                            margin: 0 3px;
+                        }
+                    }
+            }
+            
+        }
+    }
+    .footer_copyright{
+        padding-left: 9px;
+        p{
+            color: $white;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 3px;
+            text-transform: $uppercase;
+        }
+    }
+    .nav_footer{
+        padding-left: 4.6rem;
+
+        @media(max-width: 768px){
+            padding-left: 12px;
+        }
+        ul{
+            padding: 0;
+
+            @media(max-width: 1024px){
+                padding-left: 10px;
+            }
+            li{
+                display: block;
+                list-style: none;
+
+                a{
+                    text-decoration: none;
+                    color: $white;
+                    font-size: 13px;
+                    font-weight: 300;
+                    &.nav-link{
+                        padding: 0 0 5px 0;
+                    }
+                    &.bold{
+                        font-weight: 600;
+                        padding: 0 0 1.90rem 0;
+
+                        @media(max-width: 768px){
+                            padding: 8px 0;
+                        }
+                    }
+                    &.active{
+                        font-weight: 600;
+                    }
+                    &:hover,&:active,&:focus{
+                        overflow: hidden;
+                        color: $blue;
+                    }
+                }
+            }
+        }
+    }
+    }
+}

@@ -1,0 +1,94 @@
+#hero_two_col{
+    position: relative;
+    font-family: $fonts;
+    .container{
+        padding-right: 35px;
+        padding-left: 35px;
+        .one_col{
+            padding: 60px 0;
+            
+            @media(max-width: 768px){
+                padding: 15px 0;
+            }
+
+            .divider_line{
+                width: 100%;
+                height: 1px;
+                background: $lineColor;
+                margin-bottom: 5rem;
+            }
+            .divider_line_after{
+                width: 100%;
+                height: 1px;
+                background: $lineColor;
+                margin-top: 4rem;
+            }
+            .desc_title{
+                h2{
+                    font-size: 24px;
+                    font-weight: bold;
+                    letter-spacing: -0.5px;
+                    position: relative;
+                    margin-bottom: 1.5rem;
+                    span{
+                        border-bottom: 3px solid #DA216E;
+                    }
+                    i{
+                        font-size: 11px;
+                        color: $pink;
+                        vertical-align: middle;
+                        padding-left: 10px;
+                    }
+                }
+            }
+            .slide_images{
+                img{
+                    width: 1070px;
+                    -webkit-box-shadow: 0 2px 9px 0 rgba(197,197,197,0.5);
+                    box-shadow: 0 2px 9px 0 rgba(197,197,197,0.5);
+                }
+            }
+        }
+        .desc{
+            line-height: 10px;
+            margin:1.2em 0 5em 0;
+            
+            @media(max-width: 768px){
+                margin: 1.2em 0 2em 0;
+            }
+            h6{
+                font-size: 15px;
+                font-weight: 800;
+            }
+            p{
+                font-size: 13px;
+                font-weight: 400;
+            }
+        }
+        .col_img{
+            margin-top: 1rem;
+            @media(max-width: 768px){
+                margin-top: 2em;
+            }
+            img{
+                width: 100%;
+                height: 200px;
+                -webkit-box-shadow: 0 2px 9px 0 rgba(197,197,197,0.5);
+                box-shadow: 0 2px 9px 0 rgba(197,197,197,0.5);
+            }
+        }
+       
+    }
+    .loading{
+        p{
+            &.loading_text{
+                letter-spacing: 3px;
+                font-size: 9px;
+                font-weight: bold;
+                text-transform: $uppercase;
+                margin-bottom: 7rem;
+                margin-top: -45px;
+            }
+        }
+    }
+}

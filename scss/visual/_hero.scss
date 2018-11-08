@@ -1,0 +1,211 @@
+#hero{
+    padding: 80px 0 10px 0;
+    font-family: $fonts;
+   .container{
+    padding-left: 35px;
+    padding-right: 35px;
+       
+    .navigation_dropdown{
+        margin: -30px 0 1.5rem 0;
+
+        .dropdown{
+            .btn{
+                background: none;
+                border: 0;
+                border-radius: 0;
+                outline: none;
+                font-size: 13px;
+                text-transform: $uppercase;
+                font-weight: bold;
+                color: $black;
+                z-index: 1000;
+                position: absolute;
+                &:focus{
+                    box-shadow: none;
+                }
+                .fa{
+                    color: $blue!important;
+                    padding-right: 3px;
+
+                    &.fa-close{
+                        font-weight: 300;
+                    }
+                }
+            }
+
+            .dropdown-menu{
+                z-index: 1;
+                margin: -2.5rem 0 0;
+                padding: 40px 0 15px 30px;
+                li{
+                    a{
+                        text-decoration: none;
+                        padding: 10px 0;
+                        font-size: 12px;
+                        font-weight: 300;
+                        color: $black;
+                        
+                        &:hover{
+                            &.c_visual{
+                                color: $blue;
+                            }
+                            &.c_fashion{
+                                color: $c_fashion;
+                            }
+                            &.c_music{
+                                color: $c_music;
+                            }
+                            &.c_film{
+                                color: $c_film;
+                            }
+                            &.c_beauty{
+                                color: $c_beauty;
+                            }
+                            &.c_tech{
+                                color: $c_tech;
+                            }
+                            &.c_pt{
+                                color: $c_pt;
+                            }
+                            &.c_art{
+                                color: $c_art;
+                            }
+                            &.c_ac{
+                                color: $c_ac;
+                            }
+                            &.c_craft{
+                                color: $c_craft;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .logo_images{
+        margin: -30px 0 4.5rem 0;
+        img{
+            max-width: 12rem;
+            max-height: 40px;
+            margin-left: 3.35rem;
+            z-index: 0;
+            @media(max-width: 1024px){
+                margin-left: 0;
+            }
+        }
+    }
+        .form-inline{
+            .form-group{
+                .find{
+                    position: absolute;
+                    top: -25px;
+                    left: 147px;
+                    font-size: 13px;
+                    font-weight: 800;
+                    text-transform: $uppercase;
+
+                    @media(max-width: 1024px){
+                        left: 15px;
+                    }
+                    span{
+                        position: inherit;
+                        left: -10px;
+                    }
+                }
+               .form-control{
+                   width: 7rem;
+                   height: 1.90rem;
+                   padding: 0 8px;
+                   border-radius: 1px;
+                   color: #A4A4A4!important;
+                   margin-right: 0.5rem;
+                   font-size: 11px;
+                   margin-bottom: 1em;
+                   @media(max-width: 1024px){
+                        width: 14rem;
+                   }
+
+                   &::placeholder{
+                       color: #A4A4A4;
+                   }
+               }
+            a{
+                margin-top: -8px;
+
+                i{
+                    color: $white;
+                    background: $black;
+                    padding: 7px;
+                    border-radius: 1px;
+                    margin-top: -12px;
+                    &.fa-search{
+                        transform: rotate(90deg)
+                    }
+                   }
+            }
+               .selectdiv{
+                   position: relative;
+                   float: left;
+                   
+                   &:after{
+                       content: '\f107';
+                       font-family: fontAwesome;
+                       right: 15px;
+                       top: 3px;
+                       position: absolute;
+                       pointer-events: none;
+                   }
+
+                   select{
+                       -webkit-appearance: none;
+                       -moz-appearance: none;
+                       appearance: none;
+                       display: block;
+                   }
+               }
+               select::-ms-expand{
+                   display: none;
+               }
+            }
+        }
+        .images{
+            img{
+                width: 100%;
+                height: 300px;
+                background-size: cover;
+                box-shadow: 0 2px 9px 0 rgba(197,197,197,0.5);
+                
+                @media(max-width: 1024px){
+                    height: 200px;
+                }
+            }
+        }
+        .col_img{
+            img{
+                width: 100%;
+                height: 200px;
+                -webkit-box-shadow: 0 2px 9px 0 rgba(197,197,197,0.5);
+                box-shadow: 0 2px 9px 0 rgba(197,197,197,0.5);
+            }
+        }
+        .desc{
+            line-height: 10px;
+            margin:1.2em 0 5em 0;
+
+            &.mb-0{
+                margin: 0;
+            }
+            @media(max-width: 1024px){
+                margin: 30px 0;
+            }
+            h6{
+                font-size: 15px;
+                font-weight: 800;
+            }
+            p{
+                font-size: 13px;
+                font-weight: 400;
+            }
+        }
+    }
+   }

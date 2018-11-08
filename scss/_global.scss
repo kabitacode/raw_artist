@@ -1,0 +1,76 @@
+.br_none{
+    border-right: none!important;
+}
+.f_bold{
+    font-weight: bold!important;
+}
+.o_hide{
+    overflow: hidden;
+    .watch_fashion{
+    margin-bottom: 8rem;
+        .video-js{
+            width: 100%;
+            height: 540px;
+            background-color: transparent!important;
+            background-image: url('../images/poster-blur.jpg');
+            .vjs-poster{
+               background-color: transparent!important;
+            }
+            .vjs-big-play-button{
+                background-color: $white;
+                border-radius: 50%;
+                width: 100px;
+                height: 100px;
+                position: relative;
+                top: 42%;   
+                &::before{
+                    content: "watch the";
+                    position: absolute;
+                    margin: -1.5rem 0 0 -11rem;
+                    font-weight: bold;
+                    color: $white;
+                    letter-spacing: -0.5px;
+                    font-size: 24px;
+                }
+                &::after{
+                    content: "latest";
+                    position: absolute;
+                    margin-top: -1.5rem;
+                    margin-left: 3.5rem;
+                    margin: -1.5rem 0 0 7.5rem;
+                    font-weight: bold;
+                    color: $white;
+                    letter-spacing: -0.5px;
+                    font-size: 24px;
+                }
+                .vjs-icon-placeholder{
+                    color: $black;
+                    font-size: 5rem;
+                    line-height: 6rem;
+                }
+            }
+         } 
+         .desc_watch{
+             position: absolute;
+             margin: -3.8rem 0 0 18rem;
+             h5{
+                 font-size: 15px;
+                 font-weight: bold;
+                 letter-spacing: 0.25px;
+                 line-height: 18px;
+                 color: $white;
+             }
+             h6{
+                 font-size: 13px;
+                 letter-spacing: 0.3px;
+                 line-height: 16px;
+                 font-weight: 300;
+                 color: $white;
+                 span{
+                     border-bottom: 8px solid $c_fashion;
+                     padding-bottom: 0.65rem;
+                 }
+             }
+         }
+    }
+}

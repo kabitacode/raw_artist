@@ -1,0 +1,83 @@
+#gallery_profile_1{
+    padding: 40px 0 7rem 0;
+    font-family: $fonts;
+ 
+ /* Isotope Transitions
+ ------------------------------- */
+ .isotope,
+ .isotope .item {
+   -webkit-transition-duration: 0.8s;
+      -moz-transition-duration: 0.8s;
+       -ms-transition-duration: 0.8s;
+        -o-transition-duration: 0.8s;
+           transition-duration: 0.8s;
+ }
+ 
+ .isotope {
+   -webkit-transition-property: height, width;
+      -moz-transition-property: height, width;
+       -ms-transition-property: height, width;
+        -o-transition-property: height, width;
+           transition-property: height, width;
+ }
+ 
+ .isotope .item {
+   -webkit-transition-property: -webkit-transform, opacity;
+      -moz-transition-property:    -moz-transform, opacity;
+       -ms-transition-property:     -ms-transform, opacity;
+        -o-transition-property:         top, left, opacity;
+           transition-property:         transform, opacity;
+ }
+   
+    .filters{
+        margin-left: 1.5rem;
+        margin-bottom: 1rem;
+
+        .btn{
+            color: $black;
+            border: none;
+            background: $white;
+            outline: none;
+            box-shadow: none;
+            span{
+                font-size: 15px;
+                font-weight: bold;
+                &.active{
+                    border-bottom: 2px solid $blue;
+                }
+                &:hover{
+                    border-bottom: 2px solid $blue;
+                }
+
+            }
+            &.show{
+                font-size: 9px;
+                text-transform: $uppercase;
+                letter-spacing: 3px;
+                font-weight: bold;
+            }
+
+    }    
+    }
+       
+    .grid{
+        padding-left: 35px;
+        padding-right: 35px;
+
+        #posts{
+            img{
+                width: 329px;
+                margin-bottom: 20px;
+                &.bx_shadow{
+                    box-shadow: 0 0 20px 0 rgba(0,0,0,0.15);
+                }
+
+                @media(max-width: 1024px){
+                    max-width: 100%;
+    
+                 }
+                
+            }
+        }
+    }
+  }
